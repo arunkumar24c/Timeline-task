@@ -9,6 +9,10 @@ const Timeslines = () => {
   return (
     <div>
       <div className="p-10 hidden xl:block lg:block">
+        <h1 className="text-black font-medium text-xl text-center">
+          Service Journey
+        </h1>
+
         <div className="container flex items-center justify-center w-full h-[611px] relative mx-auto">
           <div>
             <hr className="w-[80rem] border-black xl:w-[80rem] lg:w-[60rem]" />
@@ -49,7 +53,7 @@ const Timeslines = () => {
           </div>
         </div>
       </div>
-      <Timeline/>
+      <Timeline />
     </div>
   );
 };

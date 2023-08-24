@@ -8,6 +8,7 @@ import img3 from "./assest/Take Away-pana 1.png";
 const Timeline = () => {
   return (
     <div className="container xl:hidden lg:hidden bg-white mx-auto w-full h-full">
+      <h1 className="text-black font-medium text-xl text-center">Service Journey</h1>
       <div className="relative wrap overflow-hidden p-10 h-full">
         <div
           className="border-2-2 absolute  h-full border"
