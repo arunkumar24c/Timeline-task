@@ -15,7 +15,7 @@ const Timeslines = () => {
 
         <div className="container flex items-center justify-center w-full h-[611px] relative mx-auto">
           <div>
-            <div className="w-[80rem] border-2  border-b-black border-dotted xl:w-[72rem] lg:w-[51rem]" ></div>
+            <div className="w-[80rem] border-2  border-b-black border-dotted xl:w-[72rem] lg:w-[51rem] 2xl:w-[87rem]" ></div>
             <div className="absolute top-[18.6rem] left-[-1px]">
               <div className=" absolute left-16 rounded-full w-4 h-4 bg-black"></div>
               <div className=" flex flex-col items-center justify-center mt-7">
