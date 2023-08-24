@@ -15,7 +15,7 @@ const Timeslines = () => {
 
         <div className="container flex items-center justify-center w-full h-[611px] relative mx-auto">
           <div>
-            <hr className="w-[80rem] border-black xl:w-[80rem] lg:w-[60rem]" />
+            <div className="w-[80rem] border-2  border-b-black border-dotted xl:w-[72rem] lg:w-[51rem]" ></div>
             <div className="absolute top-[18.6rem] left-[-1px]">
               <div className=" absolute left-16 rounded-full w-4 h-4 bg-black"></div>
               <div className=" flex flex-col items-center justify-center mt-7">
@@ -30,7 +30,7 @@ const Timeslines = () => {
               </div>
               <div className=" absolute left-16 rounded-full w-4 h-4 bg-black"></div>
             </div>
-            <div className=" absolute bottom-[5.9rem] lg:right-[22rem] right-[24rem]">
+            <div className=" absolute bottom-[5.9rem] lg:right-[14rem] right-[24rem]">
               <div className="absolute left-16  rounded-full w-4 h-4 bg-black"></div>
               <div className=" flex flex-col items-center justify-center mt-7">
                 <p className="text-center font-bold">
@@ -40,7 +40,7 @@ const Timeslines = () => {
                 <img src={img2} className="w-[10rem]" />
               </div>
             </div>
-            <div className=" absolute top-[7.5rem] right-11">
+            <div className=" absolute top-[7.5rem] -right-[1.25rem]">
               <div className=" flex flex-col items-center justify-center mb-3 ">
                 <img src={img3} className="w-[10rem]" />
                 <p className="text-center font-bold">
